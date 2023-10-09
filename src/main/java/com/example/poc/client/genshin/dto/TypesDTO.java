@@ -11,8 +11,4 @@ import lombok.Setter;
 @NoArgsConstructor
 public class TypesDTO {
     String [] types;
-
-    public String[] getTypes(){
-        return  this.types;
-    }
 }
