@@ -10,7 +10,6 @@ import reactor.core.publisher.Mono;
 @RestController("value = /poc")
 public class PocController {
     private final PocService pocService = new PocService();
-
     @GetMapping
     public Mono<Types> getTypes(){
         return pocService.getTypes();
