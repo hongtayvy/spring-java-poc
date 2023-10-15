@@ -1,4 +1,4 @@
-package com.example.poc.client.genshin.dto;
+package com.example.poc.poc.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
