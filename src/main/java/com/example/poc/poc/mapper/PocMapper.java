@@ -11,4 +11,9 @@ public class PocMapper {
         logger.info("Mapping dto values to model");
         return new Types(typesDTO.getTypes());
     }
+
+    public com.example.poc.poc.dto.TypesDTO toTypesDTO(Types types){
+        logger.info("Mapping model values to dto");
+        return new com.example.poc.poc.dto.TypesDTO(types.getTypes());
+    }
 }
