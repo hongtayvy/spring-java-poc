@@ -10,9 +10,10 @@ This GitHub repo is a proof of concept in which we do the following:
 7. We return the remolded data back to the user.
 
 ## Future POC Additions
-- [ ] Logging 
+- [x] Logging 
 - [ ] Error Handling
 - [ ] Groovy / Spock Tests 
-
+- [ ] Swagger Documentation 
+ 
 ## Additional Notes
 - I added Lombok to this project for the ease of reading through the "possibly" massive data transfer objects and models.
