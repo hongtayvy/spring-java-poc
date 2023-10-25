@@ -11,7 +11,7 @@ This GitHub repo is a proof of concept in which we do the following:
 
 ## Future POC Additions
 - [x] Logging 
-- [ ] Error Handling
+- [x] Custom Error Handling
 - [ ] Groovy / Spock Tests 
 - [ ] Swagger Documentation 
  
